@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins,  Actor, Adamina;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header section */
+.hero{
+    background: url(../images/moving\ 1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    filter: brightness(80%);
+}
+.hero header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 10% 70px 6%;
+}
+.hero header nav .navbar li{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.hero header nav .navbar li a{
+    color: #fff;
+    padding: 5px 30px;
+    transition: all 0.3s ease 0s;
+    font-weight: 800;
+    font-size: 20px;
+}
+.hero header nav .navbar li a:hover{
+    color: #FFAC12;
+}
+.hero header nav .navbar button{
+    background-color: #FFAC12;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+.hero header nav .navbar button:hover{
+    color: #fff;
+    background-color: #000;
+}
+.hero header h1{
+    font-size: 35px;
+    color: #fff;
+}
+.hero header h1 span{
+    color:#FAFF00;
+    text-decoration: line-through;
+}
+.hero .hero-text{
+    width: 40%;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 100px;
+}
+.hero .hero-text h1{
+    margin-bottom: 60px;
+    padding: 0px 10%;
+    color: #FAFF00;
+}
+.hero .hero-text p{
+    padding: 0px 10%;
+}
+
+
