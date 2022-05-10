@@ -92,6 +92,13 @@ a{
     margin-left: 35px;
     font-size: 30px;
 }
+.about .text-about hr{
+    width: 160px;
+    height: 4px;
+    background-color: #FAFF00;
+    background-image: linear-gradient(to right, #FAFF00 ,black);
+    border: none;
+}
 .about .text-about p{
 margin-bottom: 65px;
 }
