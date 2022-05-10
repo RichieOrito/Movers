@@ -74,5 +74,39 @@ a{
 .hero .hero-text p{
     padding: 0px 10%;
 }
+/* Second Section */
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-top: 87px;
+}
+.about .img-about{
+    width: 100%;
+}
+.about .img-about img{
+    width: 90%;
+}
+.about .text-about{
+    width: 58%;
+    margin-left: 35px;
+    font-size: 30px;
+}
+.about .text-about p{
+margin-bottom: 65px;
+}
+.about .text-about h1{
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.about .text-about button{
+    border: none;
+    padding: 25px;
+    width: 220px;
+    color: #FAFF00;
+    background-color: #000;
+    border-radius: 0 20px 0 0;
+    font-size: 20px;
+}
 
 
