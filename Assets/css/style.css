@@ -164,5 +164,21 @@ margin-bottom: 65px;
     text-align: center;
     padding:20px;
 }
+/* footer */
+footer{
+    background-color: #000;
+}
+footer h1{
+    color: #fff;
+    padding: 100px 0 10px 120px;
+}
+footer h1 span{
+    color: #FAFF00;
+}
+footer hr{
+    color: #ECECEC;
+    width: 85%;
+    margin: 50px auto 0 auto;
+}
 
 
