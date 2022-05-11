@@ -115,5 +115,42 @@ margin-bottom: 65px;
     border-radius: 0 20px 0 0;
     font-size: 20px;
 }
+/* Third Section*/
+.movers{
+    background-color:  #ECECEC;
+    padding: 180px 120px 30px 120px;
+    margin-top: 40px;
+}
+.movers hr{
+    width: 160px;
+    height: 4px;
+    background-color: #FAFF00;
+    background-image: linear-gradient(to right, #FAFF00 ,black);
+    border: none;
+}
+.movers h1{
+    font-size: 50px;
+}
+.movers .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 200px;
+}
+.movers .cards .box{
+    width: 100%;
+}
+.movers .cards .box img{
+    width: 100%;
+}
+.movers .cards .cards-text{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 0 0 25px 25px;
+}
+.movers .cards .cards-text h2{
+    margin-bottom: 30px;
+}
 
 
